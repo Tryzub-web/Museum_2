@@ -4,7 +4,6 @@
 
   width: 100%;
   height: 100%;
-  margin-top: 103px;
 
   visibility: hidden;
   opacity: 0;
@@ -21,6 +20,26 @@
 
     @include on-tablet {
       display: flex;
+    }
+  }
+
+  &__content {
+    margin-top: 90px;
+
+    @include on-tablet {
+      margin-top: 107px;
+    }
+  }
+
+  &__image {
+    margin-top: 0;
+
+    @include on-tablet {
+      margin-top: 30px;
+    }
+
+    @include on-desktop {
+      margin-top: 103px;
     }
   }
 
